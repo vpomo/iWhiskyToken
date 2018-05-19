@@ -238,8 +238,8 @@ contract StandardToken is ERC20, ERC223Token {
 
 contract iWhiskyToken is StandardToken {
 
-    string public constant name = "Wine Token";
-    string public constant symbol = "iWINE";
+    string public constant name = "iWhisky Token";
+    string public constant symbol = "iWSK";
     uint8 public constant decimals = 18;
     uint256 public constant INITIAL_SUPPLY = 10**9 * (10**uint256(decimals));
     address public owner;
